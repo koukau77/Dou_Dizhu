@@ -131,7 +131,7 @@ public class LoginJFrame extends JFrame implements ActionListener {
             boolean flag = checkLogin(list);
             if (flag){
                 this.setVisible(false);
-                new GameJFrame();
+                new PokerGame();
             }else {
                 code = Code.getCode();
                 correctCode.setText(code);
